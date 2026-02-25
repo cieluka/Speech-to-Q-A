@@ -13,6 +13,7 @@ Pipeline Stages
   - WER: **4.96%** 
   - CER: **1.96%** 
   - Success Rate: >99%
+
 **Output**: librispeech_local_1500.json
 
 ### Stage 2: Text Analysis & Feature Extraction 
@@ -24,4 +25,5 @@ Pipeline Stages
 **Results**:
 - Identified **17 entity types** (PERSON, DATE, GPE, ORG, etc.)
 - Found **512 question word patterns**
+
 **Output**: phase2_keywords.json, phase2_analysis.json
