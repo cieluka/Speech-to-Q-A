@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "source_file": "librispeech_local_1500.json",
+    "total_samples": 1500,
+    "sample_analyzed": 1500
+  },
+  "entities": {
+    "DATE": {
+      "count": 113,
+      "examples": [
+        "the same year",
+        "Friday",
+        "5 days",
+        "the last three weeks",
+        "1883",
+        "an important day",
+        "28 years of age",
+        "many years",
+        "the summer",
+        "yesterday"
+      ]
+    },
+    "CARDINAL": {
+      "count": 144,
+      "examples": [
+        "four",
+        "8,000",
+        "four to five",
+        "a dozen",
+        "dozen",
+        "Two",
+        "Five",
+        "Number 10",
+        "about 70",
+        "One"
+      ]
+    },
+    "PERSON": {
+      "count": 330,
+      "examples": [
+        "Douglas",
+        "Raphael",
+        "Ben Zuf's",
+        "Harry Cresswell",
+        "John Hopkinson",
+        "Hans",
+        "Wheeler",
+        "Jap",
+        "Harry Towne",
+        "Brigantine"
+      ]
+    },
+    "ORG": {
+      "count": 137,
+      "examples": [
+        "C.B.",
+        "Benzouf",
+        "the National Senate",
+        "Mambi the Witch",
+        "LLD",
+        "Hussey",
+        "the House of Lords",
+        "Apollo",
+        "Stefano",
+        "Ojo"
+      ]
+    },
+    "TIME": {
+      "count": 47,
+      "examples": [
+        "several hours'",
+        "every hour",
+        "hours",
+        "evening",
+        "noon",
+        "One night",
+        "Tonight",
+        "one little half hour",
+        "this morning",
+        "tonight"
+      ]
+    },
+    "GPE": {
+      "count": 112,
+      "examples": [
+        "Douglas",
+        "Negroes",
+        "France",
+        "Chaucer",
+        "Clay County",
+        "North and South",
+        "Charlotte",
+        "Ojo",
+        "Kezwick",
+        "Plato"
+      ]
+    },
+    "ORDINAL": {
+      "count": 49,
+      "examples": [
+        "second",
+        "First",
+        "8th",
+        "1st",
+        "fourth",
+        "first"
+      ]
+    },
+    "PRODUCT": {
+      "count": 7,
+      "examples": [
+        "Vicarious",
+        "Beatitude",
+        "Atlantis",
+        "Digby",
+        "Caprice",
+        "Cole",
+        "Plessiosaurus"
+      ]
+    },
+    "LOC": {
+      "count": 27,
+      "examples": [
+        "Europe",
+        "Duchess",
+        "Timies",
+        "Mediterranean",
+        "the Atlantic Ocean",
+        "Far West",
+        "East",
+        "Earth",
+        "South",
+        "North"
+      ]
+    },
+    "NORP": {
+      "count": 73,
+      "examples": [
+        "Athenian",
+        "Roman",
+        "Christianity",
+        "Western",
+        "French",
+        "anti-Christian",
+        "Timeas",
+        "African",
+        "Galatians",
+        "Platonic"
+      ]
+    },
+    "WORK_OF_ART": {
+      "count": 6,
+      "examples": [
+        "Love",
+        "The Book of Mormon",
+        "Turner the Gardener",
+        "the Book of Mormon",
+        "Bible",
+        "PhD"
+      ]
+    },
+    "LANGUAGE": {
+      "count": 5,
+      "examples": [
+        "English",
+        "Latin"
+      ]
+    },
+    "QUANTITY": {
+      "count": 9,
+      "examples": [
+        "a few hundred feet",
+        "a few miles",
+        "a mile",
+        "ten miles",
+        "two square",
+        "30 feet",
+        "more than six miles",
+        "10-inch"
+      ]
+    },
+    "FAC": {
+      "count": 14,
+      "examples": [
+        "8th Street",
+        "Broad Street",
+        "the Hamburg Museum",
+        "Holborn Viaduct",
+        "the Sivet Cat",
+        "the Marais Groude du Sport",
+        "Chestnut Street",
+        "the Great Flood",
+        "Baker Street",
+        "the Alba Jensus"
+      ]
+    },
+    "MONEY": {
+      "count": 3,
+      "examples": [
+        "300",
+        "250,000",
+        "millions of dollars"
+      ]
+    },
+    "EVENT": {
+      "count": 2,
+      "examples": [
+        "Cendiaries",
+        "the Crystal Palace"
+      ]
+    },
+    "LAW": {
+      "count": 2,
+      "examples": [
+        "Constitution",
+        "Chapter 1, Origin"
+      ]
+    }
+  },
+  "question_words": {
+    "who": {
+      "count": 111,
+      "examples": [
+        "At most, by an arms given to a beggar whose blessing he fled from, he might hope wearily to win for ",
+        "Her holiness, a strange light glowing faintly upon her frail flesh, did not humiliate the sinner who",
+        "James, which says that he who offends against one commandment becomes guilty of all, had seemed to h",
+        "The retreat will begin on Wednesday afternoon in honor of Saint Francis Xavier whose feast day is Sa",
+        "whose feet are as the feet of hearts and underneath the everlasting arms"
+      ]
+    },
+    "what": {
+      "count": 70,
+      "examples": [
+        "With what scathe you may, you need not think to keep out of the way of him",
+        "Here is an equally typical Greek school landscape by Wilson, lost holy and golden mist, the trees so",
+        "It has no beauty whatsoever, no specialty of picture-esque-ness, and all its lines are cramped and p",
+        "Mine I well knows what with his gust is green, And to his pallet doth prepare the cup, If it be pois",
+        "He looked at me, but as if instead of me, he saw what he spoke of"
+      ]
+    },
+    "when": {
+      "count": 76,
+      "examples": [
+        "On Saturday mornings, when the sodality met in the chapel to recite the little office, his place was",
+        "Some of the touches, indeed, when the tint has been mixed with much water, have been laid in little ",
+        "Those pretty wrongs that liberty commits, when I am some time absent from thy heart, thy beauty, and",
+        "Thought kills me that I am not thought, to leap large lengths of miles when thou art gone, but that ",
+        "But reckoning time, whose million accidents, creep in twist vows, and change to craze of kings, tan "
+      ]
+    },
+    "where": {
+      "count": 41,
+      "examples": [
+        "The dull light fell more faintly upon the page, where on another equation began to unfold itself slo",
+        "Every line in which the master traces it, even where seemingly negligent, is lovely and set down wit",
+        "Also, a popular contrivance whereby lovemaking may be suspended, but not stopped during the picnic s",
+        "A place where a guest often gives up good dollars for poor quarters",
+        "Those pretty wrongs that liberty commits, when I am some time absent from thy heart, thy beauty, and"
+      ]
+    },
+    "why": {
+      "count": 25,
+      "examples": [
+        "Why was the sacrament of the Eucharist instituted under the two species of bread and wine if Jesus C",
+        "But now here's a subject of which you will wonder at first why Turner drew it at all",
+        "But reckoning time, whose million accidents, creep in twist vows, and change to craze of kings, tan ",
+        "You'll easily judge why when you hear, because the thing had been such a scare",
+        "Why banister the servant? What's his game in the matter?"
+      ]
+    },
+    "how": {
+      "count": 63,
+      "examples": [
+        "He tried to think how it could be",
+        "If a man had stolen a pound in his youth and had used that pound to amass a huge fortune, how much w",
+        "How comes it that while the first Beatitude promises the kingdom of heaven to the poor of heart, the",
+        "Now you will see in these studies that the moment the white isn't enclosed properly and harmonized w",
+        "You know, I've just been telling you how this school of materialism and clay involved itself at last"
+      ]
+    },
+    "which": {
+      "count": 117,
+      "examples": [
+        "The chaos in which his order extinguished itself was a cold, indifferent knowledge of himself",
+        "On Saturday mornings, when the sodality met in the chapel to recite the little office, his place was",
+        "Stephen, leaning back and drawing idly on his scribbler, listened to the talk about him, which Heron",
+        "James, which says that he who offends against one commandment becomes guilty of all, had seemed to h",
+        "Their diving stone, poised on its rude supports and rocking under their plunges, and the rough, hume"
+      ]
+    },
+    "whose": {
+      "count": 9,
+      "examples": [
+        "At most, by an arms given to a beggar whose blessing he fled from, he might hope wearily to win for ",
+        "The retreat will begin on Wednesday afternoon in honor of Saint Francis Xavier whose feast day is Sa",
+        "whose feet are as the feet of hearts and underneath the everlasting arms",
+        "But reckoning time, whose million accidents, creep in twist vows, and change to craze of kings, tan ",
+        "Cry the ladies whose departure had been fixed"
+      ]
+    }
+  }
+}
