@@ -1,0 +1,358 @@
+{
+  "metadata": {
+    "dataset": "SQuAD v2",
+    "total_train": 130319,
+    "total_validation": 11873,
+    "analyzed_samples": 50000
+  },
+  "question_types": {
+    "distribution": {
+      "what": 21595,
+      "who": 5172,
+      "when": 3082,
+      "where": 1808,
+      "why": 486,
+      "how": 4083,
+      "which": 2233,
+      "whose": 0,
+      "other": 11541
+    },
+    "examples": {
+      "when": [
+        {
+          "question": "When did Beyonce start becoming popular?",
+          "answer": "in the late 1990s"
+        },
+        {
+          "question": "When did Beyonce leave Destiny's Child and become a solo singer?",
+          "answer": "2003"
+        },
+        {
+          "question": "When did Beyoncé rise to fame?",
+          "answer": "late 1990s"
+        },
+        {
+          "question": "When did Beyoncé release Dangerously in Love?",
+          "answer": "2003"
+        },
+        {
+          "question": "When did Beyonce take a hiatus in her career and take control of her management?",
+          "answer": "2010"
+        }
+      ],
+      "what": [
+        {
+          "question": "What areas did Beyonce compete in when she was growing up?",
+          "answer": "singing and dancing"
+        },
+        {
+          "question": "What album made her a worldwide known artist?",
+          "answer": "Dangerously in Love"
+        },
+        {
+          "question": "What role did Beyoncé have in Destiny's Child?",
+          "answer": "lead singer"
+        },
+        {
+          "question": "What was the first album Beyoncé released as a solo artist?",
+          "answer": "Dangerously in Love"
+        },
+        {
+          "question": "What was Beyoncé's role in Destiny's Child?",
+          "answer": "lead singer"
+        }
+      ],
+      "who": [
+        {
+          "question": "Who managed the Destiny's Child group?",
+          "answer": "Mathew Knowles"
+        },
+        {
+          "question": "Who is Beyoncé married to?",
+          "answer": "Jay Z"
+        },
+        {
+          "question": "Who was the first person to notice Beyonce's singing ability?",
+          "answer": "Darlette Johnson"
+        },
+        {
+          "question": "Who decided to place Beyonce's group in Star Search the talent show?",
+          "answer": "Arne Frager"
+        },
+        {
+          "question": "Who was the first record label to give the girls a record deal?",
+          "answer": "Elektra Records"
+        }
+      ],
+      "how": [
+        {
+          "question": "How many Grammy awards did Beyoncé win for her first solo album?",
+          "answer": "five"
+        },
+        {
+          "question": "How did Beyonce describe herself as a feminist?",
+          "answer": "modern-day feminist"
+        },
+        {
+          "question": "How many records has Beyonce sold in her 19 year career?",
+          "answer": "118 million"
+        },
+        {
+          "question": "How many records did Beyoncé sell as part of Destiny's Child?",
+          "answer": "60 million"
+        },
+        {
+          "question": "How many Grammy awards has Beyoncé won?",
+          "answer": "20"
+        }
+      ],
+      "which": [
+        {
+          "question": "Which artist did Beyonce marry?",
+          "answer": "Jay Z"
+        },
+        {
+          "question": "Which album was darker in tone from her previous work?",
+          "answer": "Beyoncé"
+        },
+        {
+          "question": "Which magazine declared her the most dominant woman musician?",
+          "answer": "Forbes"
+        },
+        {
+          "question": "Which of her teachers discovered Beyonce's musical talent?",
+          "answer": "dance instructor Darlette Johnson"
+        },
+        {
+          "question": "Which song did Beyonce sing to win a competition at age 7?",
+          "answer": "Imagine"
+        }
+      ],
+      "where": [
+        {
+          "question": "Where did Beyonce get her name from?",
+          "answer": "her mother's maiden name"
+        },
+        {
+          "question": "Where did Destiny's Child get their name from?",
+          "answer": "Book of Isaiah."
+        },
+        {
+          "question": "Where did Beyonce donate her salary from the movie Cadillac Records?",
+          "answer": "Phoenix House"
+        },
+        {
+          "question": "Where did Beyoncé perform on January 20, 2009?",
+          "answer": "the First Couple's first inaugural ball."
+        },
+        {
+          "question": "Where did Beyonce perform in 2011?",
+          "answer": "Glastonbury Festival"
+        }
+      ],
+      "why": [
+        {
+          "question": "Why was the broadcast the most-watched in history?",
+          "answer": "Her appearance"
+        },
+        {
+          "question": "Why is Beyoncé known as the centerpiece of Destiny's Child?",
+          "answer": "Her vocal abilities"
+        },
+        {
+          "question": "Why did some critics say that Chopin was too delicate?",
+          "answer": "accustomed to the piano-bashing of local artists"
+        },
+        {
+          "question": "Why did Chopin request being cut open after his death?",
+          "answer": "fear of being buried alive"
+        },
+        {
+          "question": "Why did Chopin want his body opened when he died?",
+          "answer": "fear of being buried alive"
+        }
+      ]
+    }
+  },
+  "answers": {
+    "answerable": 35241,
+    "unanswerable": 14759,
+    "avg_length": 2.6373258420589654,
+    "median_length": 2.0,
+    "entity_types": {
+      "DATE": 4494,
+      "GPE": 2797,
+      "PRODUCT": 103,
+      "WORK_OF_ART": 114,
+      "PERSON": 4215,
+      "CARDINAL": 3674,
+      "ORG": 4505,
+      "NORP": 1478,
+      "EVENT": 157,
+      "ORDINAL": 365,
+      "FAC": 210,
+      "MONEY": 349,
+      "LANGUAGE": 85,
+      "LOC": 419,
+      "QUANTITY": 219,
+      "PERCENT": 504,
+      "TIME": 88,
+      "LAW": 53
+    }
+  },
+  "contexts": {
+    "avg_length": 109.07662,
+    "median_length": 101.0
+  },
+  "question_answer_mapping": {
+    "when": {
+      "DATE": 1767,
+      "NO_ENTITY": 162,
+      "CARDINAL": 149,
+      "EVENT": 26,
+      "ORG": 64,
+      "PERSON": 16,
+      "ORDINAL": 15,
+      "TIME": 10,
+      "NORP": 12,
+      "GPE": 15,
+      "PRODUCT": 3,
+      "FAC": 4,
+      "LOC": 2,
+      "QUANTITY": 1,
+      "PERCENT": 1
+    },
+    "what": {
+      "NO_ENTITY": 7551,
+      "WORK_OF_ART": 76,
+      "ORG": 2317,
+      "PERSON": 1255,
+      "NORP": 686,
+      "GPE": 1027,
+      "DATE": 856,
+      "CARDINAL": 791,
+      "EVENT": 67,
+      "FAC": 82,
+      "ORDINAL": 119,
+      "LANGUAGE": 42,
+      "PRODUCT": 57,
+      "LOC": 158,
+      "QUANTITY": 98,
+      "PERCENT": 300,
+      "MONEY": 110,
+      "TIME": 26,
+      "LAW": 37
+    },
+    "other": {
+      "GPE": 741,
+      "DATE": 1543,
+      "PRODUCT": 21,
+      "NO_ENTITY": 3841,
+      "CARDINAL": 783,
+      "ORG": 857,
+      "PERSON": 581,
+      "WORK_OF_ART": 18,
+      "FAC": 45,
+      "NORP": 380,
+      "EVENT": 46,
+      "LANGUAGE": 34,
+      "ORDINAL": 140,
+      "LOC": 113,
+      "PERCENT": 110,
+      "MONEY": 34,
+      "QUANTITY": 20,
+      "TIME": 22,
+      "LAW": 5
+    },
+    "who": {
+      "PERSON": 1807,
+      "NO_ENTITY": 762,
+      "ORG": 629,
+      "GPE": 218,
+      "CARDINAL": 24,
+      "ORDINAL": 12,
+      "NORP": 219,
+      "FAC": 5,
+      "PRODUCT": 13,
+      "DATE": 11,
+      "LOC": 8,
+      "WORK_OF_ART": 5,
+      "MONEY": 1,
+      "LAW": 3,
+      "LANGUAGE": 1,
+      "EVENT": 2
+    },
+    "how": {
+      "CARDINAL": 1841,
+      "NO_ENTITY": 479,
+      "DATE": 229,
+      "GPE": 36,
+      "MONEY": 202,
+      "PERSON": 15,
+      "NORP": 22,
+      "PERCENT": 93,
+      "TIME": 26,
+      "QUANTITY": 96,
+      "ORG": 39,
+      "LAW": 2,
+      "LOC": 14,
+      "ORDINAL": 17,
+      "WORK_OF_ART": 2,
+      "EVENT": 2
+    },
+    "which": {
+      "NO_ENTITY": 521,
+      "ORG": 355,
+      "PERSON": 402,
+      "GPE": 249,
+      "PRODUCT": 8,
+      "DATE": 55,
+      "FAC": 31,
+      "WORK_OF_ART": 10,
+      "NORP": 89,
+      "CARDINAL": 43,
+      "ORDINAL": 26,
+      "LOC": 27,
+      "TIME": 3,
+      "EVENT": 7,
+      "LAW": 4,
+      "LANGUAGE": 3,
+      "MONEY": 1
+    },
+    "where": {
+      "NO_ENTITY": 375,
+      "PERSON": 127,
+      "ORG": 216,
+      "DATE": 27,
+      "ORDINAL": 32,
+      "GPE": 498,
+      "FAC": 43,
+      "NORP": 45,
+      "LOC": 94,
+      "EVENT": 2,
+      "TIME": 1,
+      "CARDINAL": 26,
+      "LANGUAGE": 2,
+      "WORK_OF_ART": 2,
+      "QUANTITY": 3,
+      "PRODUCT": 1,
+      "LAW": 2,
+      "MONEY": 1
+    },
+    "why": {
+      "NO_ENTITY": 235,
+      "EVENT": 5,
+      "NORP": 25,
+      "PERSON": 12,
+      "GPE": 13,
+      "CARDINAL": 17,
+      "ORDINAL": 4,
+      "DATE": 6,
+      "LOC": 3,
+      "ORG": 28,
+      "LANGUAGE": 3,
+      "QUANTITY": 1,
+      "WORK_OF_ART": 1
+    }
+  }
+}
