@@ -1,0 +1,61 @@
+{
+  "model": "deepset/roberta-base-squad2",
+  "dataset": "SQuAD v2",
+  "eval_samples": 11873,
+  "metrics": {
+    "exact_match": 41.22799629411269,
+    "f1_score": 45.47165540134942,
+    "avg_confidence": 0.3215106649521132
+  },
+  "performance_breakdown": {
+    "correct_predictions": 4895,
+    "incorrect_predictions": 6978,
+    "accuracy": 41.22799629411269
+  },
+  "confidence_stats": {
+    "mean": 0.3215106649521132,
+    "median": 0.17520681023597717,
+    "min": 1.1195763066629283e-10,
+    "max": 1.9332731366157532
+  },
+  "application_on_transcriptions": {
+    "tested": 5,
+    "examples": [
+      {
+        "text_index": 0,
+        "text_preview": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pie",
+        "question": "What was the main event?",
+        "answer": "stew for dinner",
+        "confidence": 0.415955126285553
+      },
+      {
+        "text_index": 2,
+        "text_preview": "After early nightfall, the yellow lamps would light up here and there, the squalid quarter of the br",
+        "question": "When did this happen?",
+        "answer": "After early nightfall",
+        "confidence": 0.3823597177688498
+      },
+      {
+        "text_index": 2,
+        "text_preview": "After early nightfall, the yellow lamps would light up here and there, the squalid quarter of the br",
+        "question": "Where does this take place?",
+        "answer": "the squalid quarter of the brothels",
+        "confidence": 0.29492875933647156
+      },
+      {
+        "text_index": 4,
+        "text_preview": "Number 10. Fresh Nelly is waiting on you. Good night, husband.",
+        "question": "What is this text about?",
+        "answer": "Fresh Nelly",
+        "confidence": 0.4223238229751587
+      },
+      {
+        "text_index": 4,
+        "text_preview": "Number 10. Fresh Nelly is waiting on you. Good night, husband.",
+        "question": "Who is mentioned in this text?",
+        "answer": "Fresh Nelly",
+        "confidence": 0.9247429186943918
+      }
+    ]
+  }
+}
