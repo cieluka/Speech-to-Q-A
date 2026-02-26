@@ -34,3 +34,16 @@ Pipeline Stages
 - **Analysis**:
   - Question type distribution (WHO/WHAT/WHEN/WHERE/HOW)
   - Answer patterns and entity mapping
+#### Stage 3B: QA Model Implementation & Evaluation
+**Objective**: Build extractive QA system and establish baseline
+- **Model**: RoBERTa-base-squad2
+- **Baseline Evaluation** (all samples):
+  - Exact Match: **41.23%**
+  - F1 Score: **45.47%**
+**Analysis**: 
+Current performance below standard benchmarks (EM 70%+, F1 75%+) provides 
+valuable learning experience. The project demonstrates:
+- Complete evaluation pipeline implementation
+- Proper use of EM & F1 metrics
+- Functional QA system with confidence scoring
+
