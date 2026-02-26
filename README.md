@@ -27,3 +27,10 @@ Pipeline Stages
 - Found **512 question word patterns**
 
 **Output**: phase2_keywords.json, phase2_analysis.json
+
+### Stage 3: QA System Development 
+#### Stage 3A: Dataset Exploration
+**Objective**: SQuAD v2 analysis (50000 samples)
+- **Analysis**:
+  - Question type distribution (WHO/WHAT/WHEN/WHERE/HOW)
+  - Answer patterns and entity mapping
