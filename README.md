@@ -4,7 +4,6 @@ Project Overview
 This project builds a complete pipeline from speech input to text answers:
 **Speech → Transcription → Question Analysis → Answer Extraction**
 
-Pipeline Stages
 ### Stage 1: Speech Transcription 
 **Objective**: Convert audio to text using Whisper
 - **Dataset**: LibriSpeech_test-clean (1,500 samples)
@@ -22,6 +21,7 @@ Pipeline Stages
 - KeyBERT for semantic keyword extraction
 - spaCy NER for entity recognition
 - Question word pattern analysis
+
 **Results**:
 - Identified **17 entity types** (PERSON, DATE, GPE, ORG, etc.)
 - Found **512 question word patterns**
@@ -31,7 +31,7 @@ Pipeline Stages
 ### Stage 3: QA System Development 
 #### Stage 3A: Dataset Exploration
 **Objective**: SQuAD v2 analysis (50000 samples)
-- **Analysis**:
+**Analysis**:
   - Question type distribution (WHO/WHAT/WHEN/WHERE/HOW)
   - Answer patterns and entity mapping
 #### Stage 3B: QA Model Implementation & Evaluation
@@ -46,4 +46,5 @@ valuable learning experience. The project demonstrates:
 - Complete evaluation pipeline implementation
 - Proper use of EM & F1 metrics
 - Functional QA system with confidence scoring
-
+#### Stage 4: Speech Question Answering System Impkementation
+End-to-end speech-based question answering using Whisper and RoBERTa.
