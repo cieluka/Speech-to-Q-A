@@ -36,8 +36,8 @@ This project builds a complete pipeline from speech input to text answers:
   - Answer patterns and entity mapping
 #### Stage 3B: QA Model Implementation & Evaluation
 **Objective**: Build extractive QA system and establish baseline
-- **Model**: RoBERTa-base-squad2
-- **Baseline Evaluation** (all samples):
+**Model**: RoBERTa-base-squad2
+**Baseline Evaluation** (all samples):
   - Exact Match: **41.23%**
   - F1 Score: **45.47%**
 **Analysis**: 
@@ -46,5 +46,5 @@ valuable learning experience. The project demonstrates:
 - Complete evaluation pipeline implementation
 - Proper use of EM & F1 metrics
 - Functional QA system with confidence scoring
-#### Stage 4: Speech Question Answering System Impkementation
+#### Stage 4: Speech Question Answering System Implementation
 End-to-end speech-based question answering using Whisper and RoBERTa.
